@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Trickster";
+    src: local("Trickster"),
+    url("nasalization-rg.otf") format("opentype");
+}
+body{
+    color: antiquewhite;
+    background-color: #010101;
+    font-family: Trickster, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+}
+.main-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.header{
+    text-align: center;
+    font-size: 18px;
+
+}
+.header-name{
+    font-size: 30px;
+
+}
+.header-info{
+    font-size: 18px;
+}
+.main-content{
+    min-height: 100vh;
+
+}
+.fish{
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+.header-image{
+    -webkit-filter: brightness(60%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
