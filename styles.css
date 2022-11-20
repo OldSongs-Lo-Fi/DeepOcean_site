@@ -5,7 +5,7 @@
 }
 body{
     color: antiquewhite;
-    background-color: #010101;
+    background-color: #000205;
     font-family: Trickster, sans-serif;
     font-size: 16px;
     line-height: 1.7;
@@ -26,23 +26,22 @@ body{
 }
 .header-name{
     font-size: 30px;
-
+    padding: 70px;
 }
 .header-info{
     font-size: 18px;
 }
 .main-content{
     min-height: 100vh;
-
 }
 .fish{
+    border: 3px antiquewhite;
     align-items: center;
-    justify-content: center;
     padding: 100px;
 
 }
 .header-image{
-    -webkit-filter: brightness(60%);
+    -webkit-filter: brightness(23%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -50,3 +49,38 @@ body{
     background-position: center;
     z-index: -1;
 }
+.body-image{
+    -webkit-filter: brightness(30%) opacity(90%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.fish-image{
+    justify-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: stretch;
+
+    filter: brightness(70%);
+    z-index: -1;
+    height: auto;
+    width: 70%;
+
+
+
+    /*transform: translate3d(0, calc(var(--scrollTop)/-2),0);*/
+
+}
+/*
+.bubble{
+    z-index: 1;
+    transform: translate3d(0, calc(var(--scrollTop)/-2),0);
+    width: 100px;
+    height: 100px;
+}
+*/
